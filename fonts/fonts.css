@@ -1,0 +1,29 @@
+/* Font self-hosted — Chakra Petch + Inter, font-display: swap */
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/ChakraPetch-500.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/ChakraPetch-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/ChakraPetch-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('../fonts/Inter-400.woff2') format('woff2');
+}

@@ -1,0 +1,44 @@
+/* ============================================
+   S.T.E.P. Impianti — Design tokens
+   Concept: "Blueprint tecnico"
+   ============================================ */
+:root {
+  /* Palette — navy profondo / avorio / blu acciaio */
+  --navy-950: #081220;
+  --navy-900: #0E1B2A;
+  --navy-800: #14263A;
+  --navy-700: #1B3350;
+  --steel-600: #2E4A6B;
+  --steel-500: #3D5F87;
+  --steel-400: #55779E;
+  --steel-300: #7E9BBD;
+  --steel-200: #A9BFD6;
+  --ivory: #F6F4EF;
+  --ivory-dim: #E4E0D5;
+  --ivory-mute: #C9C4B6;
+  --line-blue: rgba(126, 155, 189, 0.22);
+  --line-blue-strong: rgba(126, 155, 189, 0.45);
+
+  /* Tipografia */
+  --font-display: 'Chakra Petch', 'Segoe UI', sans-serif;
+  --font-body: 'Inter', 'Segoe UI', sans-serif;
+
+  /* Scala */
+  --fs-hero: clamp(2.4rem, 6vw, 4.6rem);
+  --fs-h2: clamp(1.7rem, 3.6vw, 2.6rem);
+  --fs-h3: clamp(1.15rem, 2vw, 1.45rem);
+  --fs-body: clamp(1rem, 1.2vw, 1.075rem);
+
+  /* Spazi */
+  --space-section: clamp(4.5rem, 10vw, 8.5rem);
+  --container: 1180px;
+
+  /* Bordi */
+  --radius: 4px;
+  --radius-lg: 8px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 0.28s;
+  --dur-med: 0.5s;
+}
