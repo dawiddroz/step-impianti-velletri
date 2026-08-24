@@ -1,5 +1,2 @@
 User-agent: *
-Allow: /
-Disallow: /_polish-qa/
-
-Sitemap: https://dawiddroz.github.io/step-impianti-velletri/sitemap.xml
+Disallow: /
